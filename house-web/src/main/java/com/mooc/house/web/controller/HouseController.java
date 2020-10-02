@@ -2,6 +2,7 @@ package com.mooc.house.web.controller;
 
 import java.util.List;
 
+import com.mooc.house.web.interceptor.UserContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -23,7 +24,7 @@ import com.mooc.house.common.model.UserMsg;
 import com.mooc.house.common.page.PageData;
 import com.mooc.house.common.page.PageParams;
 import com.mooc.house.common.result.ResultMsg;
-import com.mooc.house.web.interceptor.UserContext;
+import com.mooc.house.web.interceptor.xt;
 
 @Controller
 public class HouseController {
