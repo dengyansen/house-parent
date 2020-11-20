@@ -24,7 +24,7 @@ import com.mooc.house.common.model.UserMsg;
 import com.mooc.house.common.page.PageData;
 import com.mooc.house.common.page.PageParams;
 import com.mooc.house.common.result.ResultMsg;
-import com.mooc.house.web.interceptor.xt;
+import com.mooc.house.web.interceptor.UserContext;
 
 @Controller
 public class HouseController {
